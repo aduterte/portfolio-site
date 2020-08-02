@@ -29,7 +29,7 @@ export default function BlogContainer(props){
                 {/* <h1 style={{textAlign: "left"}}>// Blogs</h1> */}
             </div>
             <div className="blog-card-container">
-                {/* {props.blogs.map(blog => <BlogCard key={blog.guid} blog={blog}/>)} */}
+                
                 {props.blogs.map(blog => <div key={blog.guid} dangerouslySetInnerHTML={{ __html: blog.content }}/>)}
             </div>
             <br/>
