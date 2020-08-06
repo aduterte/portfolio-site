@@ -8,7 +8,7 @@ export default function MainPage(){
                 test
             </div>
             <div>
-                test
+                ABOUT
             </div>
         </div>
     )

@@ -13,8 +13,11 @@ a:visited {
   display: flex;
   justify-content: space-between;
   height:50px;
-  background-color: rgba(56, 141, 211, 0.267);
+  background-color: rgba(0, 0, 0, 0.098);
   z-index:10;
+  width: 100%;
+  position: fixed;
+  /* margin-top: -100px; */
   
 }
 #header {
@@ -71,7 +74,7 @@ a:visited {
   background-position: center;
   background-size: cover;
   height: calc(100vh - 0px);
-  margin-top: -50px;
+  /* margin-top: -50px; */
 }
 
 .test {
