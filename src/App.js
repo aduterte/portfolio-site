@@ -30,8 +30,7 @@ function App () {
     fetch("https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@alexduterte")
     .then(resp => resp.json())
     .then(data => setBlogs(data.items))
-    // const API = require('call-of-duty-api')();
-    // API.login("alexduterte@gmail.com", "BAaj326993")
+    
   }, [setBlogs])
 
   
