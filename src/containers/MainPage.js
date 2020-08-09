@@ -8,7 +8,7 @@ export default function MainPage(){
                 test
             </div>
             <div>
-                ABOUT
+                <a href="#about"></a>ABOUT
             </div>
         </div>
     )
