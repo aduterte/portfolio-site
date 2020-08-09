@@ -18,15 +18,15 @@ function App () {
   
 
   useEffect(()=>{
-    fetch("https://api.medium.com/v1/me", {
-      headers: {
-      "Host": "api.medium.com",
-      "Authorization": "Bearer 247c3f324495b9cc740300a5e574d7972b37732e712b9e4b1d022e63ecafc659a",
-      "Content-Type": "application/json",
-      "Accept": "appliction/json",
-      "Accept-Charset": "utf-8"}
-    }).then(resp => resp.json())
-    .then(data => setBlogs(data))
+    // fetch("https://api.medium.com/v1/me", {
+    //   headers: {
+    //   "Host": "api.medium.com",
+    //   "Authorization": "Bearer 247c3f324495b9cc740300a5e574d7972b37732e712b9e4b1d022e63ecafc659a",
+    //   "Content-Type": "application/json",
+    //   "Accept": "appliction/json",
+    //   "Accept-Charset": "utf-8"}
+    // }).then(resp => resp.json())
+    // .then(data => setBlogs(data))
     fetch("https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@alexduterte")
     .then(resp => resp.json())
     .then(data => setBlogs(data.items))
