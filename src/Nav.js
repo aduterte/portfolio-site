@@ -12,7 +12,7 @@ export default function Nav () {
     const [pos, setPos] = useState("top");
 
     useEffect (()=>{
-      const listener = document.addEventListener("scroll", e => {
+      document.addEventListener("scroll", e => {
         let scrolled = document.scrollingElement.scrollTop;
         if (scrolled >= 5){
           setPos("moved")
@@ -21,6 +21,17 @@ export default function Nav () {
         }
       })
     },[])
+
+    // useEffect (document.addEventListener("scroll", e => {
+      
+    //     let scrolled = document.scrollingElement.scrollTop;
+    //     if (scrolled >= 5){
+    //       setPos("moved")
+    //     } else {
+    //       setPos("top")
+    //     }
+      
+    // }),[])
 
     return (
         <div className="nav" style={{backgroundColor: pos === "top" ? "rgba(0, 0, 0, 0)" : "rgba(0, 0, 0, .5)" }}>
