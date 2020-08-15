@@ -28,7 +28,7 @@ export default function Nav () {
     //     if (scrolled >= 5){
     //       setPos("moved")
     //     } else {
-    //       setPos("top"
+    //       setPos("top") 
     //     }
       
     // }),[])
