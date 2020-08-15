@@ -152,6 +152,7 @@ a:visited {
   display: flex;
   align-items: center;
   flex-flow: column;
+  padding: 100px 0px;
 }
 .about-pic {
   width:200px;
@@ -159,5 +160,39 @@ a:visited {
 }
 
 .about-blurb {
-  width: 30%;
+  width: 600px;
+}
+
+.technical-skills-container{
+  display:flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width:600px;
+}
+
+.technical-skill{
+  margin: 10px 10px;
+  border: thin solid blue;
+  padding: 5px 5px;
+  border-radius: 10px;
+}
+
+.social-icon {
+  width: 32px;
+  height: 32px;
+  margin: 5px 5px;
+}
+
+.resume-link {
+  color: rgb(2, 2, 154);
+  font-weight: bold;
+}
+.resume-link a {
+  color: black;
+}
+.resume-link a:visited{
+  color: rgb(2, 2, 154);
+}
+.resume-link a:hover{
+  color:rgb(116, 116, 116);
 }
