@@ -5,8 +5,9 @@ export default function MainPage(){
 
     return (
         <div>
+            <a name="home"></a>
             <div className="hero-image-container">
-                test
+               
             </div>
             <div>
                 <About/>

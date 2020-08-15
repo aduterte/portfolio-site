@@ -42,8 +42,9 @@ export default function Nav () {
           </div>
           
           <div id="nav">
-            <Link className="header-link" to="/">Home</Link>
+            <a className="header-link" href="#home">Home</a>
             <Link className="header-link" to="/blog">Blog</Link>
+            <a className="header-link" href="#about">About</a>
             <Link className="header-link" to="/projects">Projects</Link>
             <Link className="header-link" to="/contact">Contact</Link>
           </div>
