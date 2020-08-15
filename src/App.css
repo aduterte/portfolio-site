@@ -147,3 +147,17 @@ a:visited {
   align-items: flex-start;
   flex-direction: column;
 }
+
+.about {
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+}
+.about-pic {
+  width:200px;
+  border-radius: 100px;
+}
+
+.about-blurb {
+  width: 30%;
+}

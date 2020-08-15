@@ -1,4 +1,5 @@
 import React from "react"
+import About from "./AboutSection"
 
 export default function MainPage(){
 
@@ -8,7 +9,7 @@ export default function MainPage(){
                 test
             </div>
             <div>
-                <a href="#about"></a>ABOUT
+                <About/>
             </div>
         </div>
     )
