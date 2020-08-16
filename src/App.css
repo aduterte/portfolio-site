@@ -153,6 +153,10 @@ a:visited {
   align-items: center;
   flex-flow: column;
   padding: 100px 0px;
+  background-color: rgb(255, 255, 255);
+}
+.about h2 {
+  color: rgb(96, 95, 95);
 }
 .about-pic {
   width:200px;
@@ -161,6 +165,7 @@ a:visited {
 
 .about-blurb {
   width: 600px;
+  color: rgb(99, 99, 99);
 }
 
 .technical-skills-container{
@@ -180,7 +185,7 @@ a:visited {
 .social-icon {
   width: 32px;
   height: 32px;
-  margin: 5px 5px;
+  margin: 10px 5px 0px 5px;
 }
 
 .resume-link {
@@ -199,4 +204,15 @@ a:visited {
 }
 .resume-link a:hover{
   color:rgb(107, 198, 254);
+}
+
+.projects-container {
+  padding: 100px 0px;
+  background-color: rgba(213, 220, 227, 0.31);
+}
+
+.hidden-text {
+  font-size: 0px;
+  height:0px;
+  width: 0px;
 }
