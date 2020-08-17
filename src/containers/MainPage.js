@@ -10,7 +10,14 @@ export default function MainPage(){
             
             <div className="hero-image-container">
             <a className="hidden-text" name="home">Alessandro Duterte</a>  
-                <h2>Welcome</h2>
+                <div>
+                    <div>
+
+                    </div>
+                    <div>
+                        <h2>Welcome</h2>
+                    </div>
+                </div>
             </div>
             <div>
             <a className="hidden-text" name="about">About Section</a>
