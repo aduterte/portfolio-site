@@ -216,3 +216,19 @@ a:visited {
   height:0px;
   width: 0px;
 }
+
+.top-container {
+  display: flex;
+  justify-content: space-between;
+  height:100%;
+  align-items: center;
+}
+
+.top-left {
+  width: 50%;
+  color: white;
+}
+
+.top-right {
+  width: 50%;
+}
