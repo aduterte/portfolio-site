@@ -325,7 +325,7 @@ a:visited {
 .project-tech-links img {
   margin-right: 5px;
   width: 25px;
-  /* opacity: 75%; */
+  opacity: .75;
 }
 .project-git-link a {
   color: rgb(255, 255, 255);
