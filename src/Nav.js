@@ -43,10 +43,11 @@ export default function Nav () {
           
           <div id="nav">
             <a className="header-link" href="#home">Home</a>
-            <Link className="header-link" to="/blog">Blog</Link>
+            
             <a className="header-link" href="#about">About</a>
             <a className="header-link" href="#projects">Projects</a>
-            <Link className="header-link" to="/contact">Contact</Link>
+            <a className="header-link" href="#blogs">Blog</a>
+            <a className="header-link" href="#contac">Contact</a>
           </div>
       </div>
         

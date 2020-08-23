@@ -22,17 +22,23 @@ export default function BlogCard(props){
         // return content.substring(getStart(), getStart()+100)
     }
     return (
+        
         <div className="blog-card">
             <div className="blog-card-img-div" style={{backgroundImage: `url(${props.blog.thumbnail})`}}>
                 {/* <img src={props.blog.thumbnail} /> */}
 
             </div>
             <div className="blog-card-body">
-                <h4>{props.blog.title}</h4>
-                <p>{props.blog.pubDate.substring(0,10)}</p>
-                <p>{getContent(props.blog.description)}</p>
+                <div className="blog-card-title">{props.blog.title}</div>
+                <div className="blog-card-date">{props.blog.pubDate.substring(0,10)}</div>
+                <div className="blog-card-preview">{getContent(props.blog.description)}</div>
+                <div className="blog-card-bottom">
+                    <a href={props.blog.link} target="_blank">Read More on Medium.com</a>
+                </div>
             </div>
             
+            
         </div>
+       
     )
 }
