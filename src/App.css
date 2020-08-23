@@ -232,3 +232,98 @@ a:visited {
 .top-right {
   width: 50%;
 }
+
+.project-list {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.project-card {
+  background-color: white;
+  border-radius: 15px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  overflow: hidden;
+  justify-content: space-between;
+  filter: drop-shadow(10px 10px 2px #4a4a4a);
+  padding:20px 0px;
+}
+.project-card-img {
+  width: 500px;
+  height: 300px;
+  background-position: center;
+  background-size: 125%;
+}
+
+.project-name {
+  font-size: 25px;
+  color: rgb(72, 72, 72);
+  margin-left: 20px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.project-info {
+  width: 480px;
+  padding: 0px 10px;
+  margin-top: 10px;
+}
+
+.project-tech-list {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+  width:460px;
+  padding: px 20px 20px 20px;
+}
+
+.project-tech {
+  color: rgb(111, 111, 111);
+  margin: 5px 10px;
+  font-weight: bold;
+}
+.project-header {
+  font-size: 20px;
+  color: rgb(72, 72, 72);
+  margin-left: 20px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+.project-break{
+  height: 1px;
+  width: 460px;
+  background-color: rgba(128, 128, 128, 0.406);
+  margin: 10px 0px;
+  margin-left: 20px;
+}
+
+.project-tech-links {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 20px;
+  margin-top: 20px;
+  align-items: center;
+}
+
+.project-git-link {
+  background-color: rgb(87, 87, 87);
+  margin: 0px 5px 0px 0px;
+  padding: 2.5px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.project-tech-links img {
+  margin-right: 5px;
+  width: 25px;
+  opacity: 75%;
+}
+.project-git-link a {
+  color: rgb(255, 255, 255);
+}
+.project-git-link a:hover {
+  color: rgb(128, 203, 247);
+}

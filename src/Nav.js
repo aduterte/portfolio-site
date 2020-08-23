@@ -45,7 +45,7 @@ export default function Nav () {
             <a className="header-link" href="#home">Home</a>
             <Link className="header-link" to="/blog">Blog</Link>
             <a className="header-link" href="#about">About</a>
-            <Link className="header-link" to="/projects">Projects</Link>
+            <a className="header-link" href="#projects">Projects</a>
             <Link className="header-link" to="/contact">Contact</Link>
           </div>
       </div>

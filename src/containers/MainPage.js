@@ -24,6 +24,7 @@ export default function MainPage(){
                 <About/>
             </div>
             <div>
+            <a className="hidden-text" name="projects">Projects Section</a>
                 <Projects/>
             </div>
             <div>
