@@ -30,6 +30,11 @@ export default function Nav () {
     const styleTop = {backgroundColor: "rgba(0, 0, 0, 0)",
                       filter: "drop-shadow(3px 3px 4px rgb(0, 0, 0))"},
       styleMoved = {backgroundColor: "rgba(0, 0, 0)" , filter: ""}
+
+    function scrollTo(name){
+      const div = document.getElementById(name)
+      div.scrollIntoView({behavior: "smooth"})
+    }
   
     return (
         <div className="nav" style={pos === "top" ? styleTop : styleMoved}>
@@ -49,12 +54,12 @@ export default function Nav () {
          
           
           <div id="nav" style={pos === "top" ? styleTop : styleMoved}>
-            <a className="header-link" href="#home">Home</a>
+            <div className="header-link" onClick={()=>scrollTo("home")} >Home</div>
             
-            <a className="header-link" href="#about">About</a>
-            <a className="header-link" href="#projects">Projects</a>
-            <a className="header-link" href="#blogs">Blog</a>
-            <a className="header-link" href="#contac">Contact</a>
+            <div className="header-link" onClick={()=>scrollTo("about")} >About</div>
+            <div className="header-link" onClick={()=>scrollTo("projects")} >Projects</div>
+            <div className="header-link" onClick={()=>scrollTo("blogs")} >Blog</div>
+            <div className="header-link" onClick={()=>scrollTo("projects")} >Contact</div>
           </div>
       </div>
         
