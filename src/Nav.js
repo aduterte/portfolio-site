@@ -34,7 +34,7 @@ export default function Nav () {
     // }),[])
 
     return (
-        <div className="nav" style={{backgroundColor: pos === "top" ? "rgba(0, 0, 0, 0)" : "rgba(0, 0, 0, .5)" }}>
+        <div className="nav" style={{backgroundColor: pos === "top" ? "rgba(0, 0, 0, 0)" : "rgba(0, 0, 0)" }}>
           <div id="header" >
               <div className="header-text">alessandro</div>
               <img className="header-text" src="./images/logo.svg" alt="logo" id="logo"/>
