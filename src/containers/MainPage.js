@@ -9,7 +9,8 @@ export default function MainPage(){
         <div>
             
             <div className="hero-image-container">
-            <a className="hidden-text" name="home">Alessandro Duterte</a>  
+            
+            <div className="hidden-text" id="home">Alessandro Duterte</div>  
                 <div className="top-container">
                     <div className="top-left">
                         <h2>Welcome</h2>
@@ -20,15 +21,16 @@ export default function MainPage(){
                 </div>
             </div>
             <div>
-            <a className="hidden-text" name="about">About Section</a>
+            
+            <div className="hidden-text" id="about">About Section</div>
                 <About/>
             </div>
             <div>
-            <a className="hidden-text" name="projects">Projects Section</a>
+            <div className="hidden-text" id="projects">Projects Section</div>
                 <Projects/>
             </div>
             <div>
-            <a className="hidden-text" name="blogs">Blogs Section</a>
+            <div className="hidden-text" id="blogs">Blogs Section</div>
                 <Blogs/>
             </div>
         </div>
