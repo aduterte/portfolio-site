@@ -2,7 +2,7 @@ import React from "react"
 
 export default function ProjectCard(props){
 
-    const {img, info, name, tech, git} = props.content
+    const {img, info, name, tech, git, bullets} = props.content
     
     const test = () => {
         debugger
@@ -15,6 +15,11 @@ export default function ProjectCard(props){
             </div>
             <div className="project-name">{name}</div>
             <div className="project-info">{info}</div>
+            <div className="project-break"></div>
+                <ul className="project-bullets">
+                {bullets.map(bullet=> <li key={bullet}>{bullet}</li>)}
+                </ul>
+                
             <div className="project-break"></div>
             <div className="project-header">Tech Used</div>
             <div className="project-tech-list">
