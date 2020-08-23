@@ -1,13 +1,13 @@
 import React, {useEffect} from 'react';
 import './App.css';
 import Nav from "./Nav";
-import Blog from "./Blog"
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
-} from "react-router-dom"
+// import Blog from "./Blog"
+// import {
+//   BrowserRouter as Router,
+//   Switch,
+//   Route,
+//   Link
+// } from "react-router-dom"
 import { blogsState } from "./Atoms"
 import { useRecoilState} from "recoil"
 import MainPage from './containers/MainPage';
@@ -36,21 +36,16 @@ function App () {
   
     console.log(blogs)
   return (
-    <Router>
+    
     <div className="App">
       <Nav />
       <div>
-        <Switch>
-          <Route exact path="/">
+        
             <MainPage />
-          </Route>
-          <Route path="/blog">
-            <Blog blogs={blogs}/>
-          </Route>
-        </Switch>
+         
       </div>
     </div>
-    </Router>
+    
   );
   
 }

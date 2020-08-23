@@ -1,7 +1,7 @@
 import React from "react"
 import { blogsState } from "../Atoms"
 import {useRecoilValue} from "recoil"
-import BlogCard from "../BlogCard"
+import BlogCard from "../components/BlogCard"
 
 export default function BlogsContainer(){
 
