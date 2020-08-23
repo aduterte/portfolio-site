@@ -4,14 +4,11 @@ export default function ProjectCard(props){
 
     const {img, info, name, tech, git, bullets} = props.content
     
-    const test = () => {
-        debugger
-    }
     return(
         <div className="project-card">
             
             <div className="project-card-img" style={{backgroundImage: `url(${img})`}}>
-                {/* <img src={props.img}/> */}
+                
             </div>
             <div className="project-name">{name}</div>
             <div className="project-info">{info}</div>
@@ -27,8 +24,8 @@ export default function ProjectCard(props){
             </div>
             <div className="project-break"></div>
             <div className="project-tech-links">
-                <img src="../images/github_logo.png"/>
-                {git.map( git =><div className="project-git-link" key={git.end}><a href={git.link} target="_blank">{git.end}</a></div>)}
+                <img src="../images/github_logo.png" alt="github logo"/>
+                {git.map( git =><div className="project-git-link" key={git.end}><a href={git.link} target="_blank" rel="noopener noreferrer">{git.end}</a></div>)}
                 
             </div>
         </div>
