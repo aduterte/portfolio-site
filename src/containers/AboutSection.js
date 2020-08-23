@@ -10,7 +10,7 @@ export default function About(){
             <p className="about-blurb">My Name is Alessandro Duterte, I'm a Full Stack Developer. I've performed a wide range of design and coding projects utilizing Ruby on Rails, HTML, CSS, API, and JavaScript.  Skilled problem-solver with a fast learning curve for cutting-edge technologies.  Known for a strong work ethic and professional demeanor, exceptional interpersonal skills, and the capacity to adhere to industry’s rules and regulations.</p>
             <h2>Technical Skills</h2>
             <div className="technical-skills-container">
-                {skills.map(skill => <div className="technical-skill">{skill}</div>)}
+                {skills.map((skill, index) => <div key={index} className="technical-skill">{skill}</div>)}
             </div>
             <div className="resume-link">
                 <a href="../files/alessandr_resume_2020.pdf">My Resume</a>

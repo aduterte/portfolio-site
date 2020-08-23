@@ -33,7 +33,7 @@ export default function BlogCard(props){
                 <div className="blog-card-date">{props.blog.pubDate.substring(0,10)}</div>
                 <div className="blog-card-preview">{getContent(props.blog.description)}</div>
                 <div className="blog-card-bottom">
-                    <a href={props.blog.link} target="_blank" without rel="noopener noreferrer">Read More on Medium.com</a>
+                    <a href={props.blog.link} target="_blank" rel="noopener noreferrer">Read More on Medium.com</a>
                 </div>
             </div>
             
