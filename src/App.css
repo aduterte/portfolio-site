@@ -64,7 +64,7 @@ a:visited {
 .header-text {
   font-size: 30px;
   color: rgb(255, 255, 255);
-  filter: drop-shadow(5px 6px 4px rgba(0, 0, 0, 0.657));
+  /* filter: drop-shadow(5px 6px 4px rgba(0, 0, 0, 0.657)); */
   font-weight:bold;
   
 }
