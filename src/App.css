@@ -74,7 +74,7 @@ a:visited {
 }
 
 .hero-image-container{
-  background: url("https://previews.123rf.com/images/fedcophoto/fedcophoto2002/fedcophoto200201503/141243459-portrait-of-young-freelancer-guy-sitting-on-sofa-with-cup-of-coffee-in-hand-and-laptop-on-legs-grey-.jpg");
+  background: url("https://images.unsplash.com/photo-1484417894907-623942c8ee29?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1778&q=80");
   background-position: center;
   background-size: cover;
   height: calc(100vh - 0px);
@@ -342,4 +342,15 @@ font-size: 13px;
   max-width: 450px;
   /* padding: 0px 10px; */
   text-align: left;
+}
+
+.welcome-message {
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: left;
+  width: 70%;
+  padding: 50px;
+  margin: 20px;
+  background-color: rgba(0, 0, 0, 0.55);
 }

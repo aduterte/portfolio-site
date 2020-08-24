@@ -13,7 +13,11 @@ export default function MainPage(){
             <div className="hidden-text" id="home">Alessandro Duterte</div>  
                 <div className="top-container">
                     <div className="top-left">
-                        <h2>Welcome</h2>
+                        <div className="welcome-message">
+                            Hi,<br/>
+                            My Name is Alessandro.<br/>
+                            I'm a Software Engineer.
+                        </div>
                     </div>
                     <div className="top-right">
                        

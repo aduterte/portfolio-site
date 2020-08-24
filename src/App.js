@@ -1,13 +1,6 @@
 import React, {useEffect} from 'react';
 import './App.css';
 import Nav from "./Nav";
-// import Blog from "./Blog"
-// import {
-//   BrowserRouter as Router,
-//   Switch,
-//   Route,
-//   Link
-// } from "react-router-dom"
 import { blogsState } from "./Atoms"
 import { useRecoilState} from "recoil"
 import MainPage from './containers/MainPage';
