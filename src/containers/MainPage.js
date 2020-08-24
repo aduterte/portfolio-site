@@ -2,6 +2,7 @@ import React from "react"
 import About from "./AboutSection"
 import Projects from "./Projects"
 import Blogs from "./BlogContainer"
+import ContactContainer from "./ContactSection"
 
 export default function MainPage(){
 
@@ -20,22 +21,24 @@ export default function MainPage(){
                         </div>
                     </div>
                     <div className="top-right">
-                       
                     </div>
                 </div>
             </div>
             <div>
-            
-            <div className="hidden-text" id="about">About Section</div>
+                <div className="hidden-text" id="about">About Section</div>
                 <About/>
             </div>
             <div>
-            <div className="hidden-text" id="projects">Projects Section</div>
-                <Projects/>
+                <div className="hidden-text" id="projects">Projects Section</div>
+                    <Projects/>
             </div>
             <div>
-            <div className="hidden-text" id="blogs">Blogs Section</div>
+                <div className="hidden-text" id="blogs">Blogs Section</div>
                 <Blogs/>
+            </div>
+            <div>
+                <div className="hidden-text" id="contact">Contact Section</div>
+                <ContactContainer/>
             </div>
         </div>
     )

@@ -58,8 +58,8 @@ export default function Nav () {
             
             <div className="header-link" onClick={()=>scrollTo("about")} >About</div>
             <div className="header-link" onClick={()=>scrollTo("projects")} >Projects</div>
-            <div className="header-link" onClick={()=>scrollTo("blogs")} >Blog</div>
-            <div className="header-link" onClick={()=>scrollTo("projects")} >Contact</div>
+            <div className="header-link" onClick={()=>scrollTo("blogs")} >Blogs</div>
+            <div className="header-link" onClick={()=>scrollTo("contact")} >Contact</div>
           </div>
       </div>
         
