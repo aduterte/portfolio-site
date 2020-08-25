@@ -9,7 +9,7 @@ export default function BlogsContainer(){
 
     return(
         <div className="blog-card-container">
-            <h2>My Recent Blogs</h2>
+            <h2 className="section-name">My Recent Blogs</h2>
             {blogs.slice(0,4).map((blog, index) => <BlogCard key={index} blog={blog}/>)}
         </div>
     )

@@ -4,7 +4,7 @@ import ProjectCard from "../components/ProjectCard"
 export default function Projects(){
     return(
         <div className="projects-container">
-            <h2>Technical Projects</h2>
+            <h2 className="section-name">Technical Projects</h2>
             <div className="project-list">
                 <ProjectCard content={{
                     img: "../images/trailflix.png",
