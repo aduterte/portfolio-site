@@ -27,7 +27,6 @@ function App () {
   }, [setBlogs])
 
   
-    console.log(blogs)
   return (
     
     <div className="App">

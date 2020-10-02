@@ -1,7 +1,7 @@
 import React from "react"
 
 export default function BlogCard(props){
-    console.log(props)
+    
 
     // let date = props.blog.pubDate
     // let blip = props.blog.content.replace("<p>", "").replace("</p>", "")
@@ -17,8 +17,11 @@ export default function BlogCard(props){
         //     })
         //     return num
         // }
-        
-        return array[1].substring(0, 180) + "..."
+        console.log(array)
+        if (array[1]){
+            let line = array[1].split("</p>")
+             return line[0].substring(0, 180) + "..."
+        }
         // return content.substring(getStart(), getStart()+100)
     }
     return (
