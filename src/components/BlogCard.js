@@ -17,7 +17,7 @@ export default function BlogCard(props){
         //     })
         //     return num
         // }
-        console.log(array)
+        
         if (array[1]){
             let line = array[1].split("</p>")
              return line[0].substring(0, 180) + "..."
