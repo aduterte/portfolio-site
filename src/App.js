@@ -2,12 +2,12 @@ import React, {useEffect} from 'react';
 import './App.css';
 import Nav from "./Nav";
 import { blogsState } from "./Atoms"
-import { useRecoilState} from "recoil"
+import { useSetRecoilState} from "recoil"
 import MainPage from './containers/MainPage';
 
 function App () {
   
-  const [blogs, setBlogs] = useRecoilState(blogsState)
+  const setBlogs = useSetRecoilState(blogsState)
   
 
   useEffect(()=>{
